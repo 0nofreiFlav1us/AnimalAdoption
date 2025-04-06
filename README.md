@@ -1,2 +1,1 @@
-# AnimalAdoption
-Simple Java desktop app for pet adoption, built with JavaFX and MySQL. Users can create accounts, request adoptions (PDF generated), and admins can manage pet listings. Great for practicing Java basics and database integration.
+This is a small desktop app I built for my Java class using Java, JavaFX, and MySQL. Users can create accounts and send adoption requests for pets, which automatically generates a PDF with their info. Admins can manage the pet listings (add/edit/delete). A very simple project to practice Java basics, interfaces, and working with a database.
