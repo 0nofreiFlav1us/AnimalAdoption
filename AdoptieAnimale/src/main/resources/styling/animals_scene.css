@@ -1,0 +1,45 @@
+.root {
+    -fx-font-size: 30px; /* Set a base font size for everything */
+    -fx-background-color: #FCF7FF;
+    -fx-font-family: "Verdana";
+    -fx-border-radius: 20;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 100px;
+    -fx-background-color: #5D4E6D;
+}
+
+.animal-list {
+    -fx-background-color: #FCF7FF;
+    -fx-padding: 50;
+    -fx-spacing: 15;
+    -fx-border-width: 0;
+    -fx-background-radius: 10;
+}
+
+.scroll-pane .scroll-bar {
+    -fx-opacity: 0; /* Hides the scrollbars */
+    -fx-pref-width: 0; /* Removes the horizontal scrollbar */
+    -fx-pref-height: 0; /* Removes the vertical scrollbar */
+}
+
+.scroll-pane {
+    -fx-padding: 0; /* Removes inner padding */
+    -fx-background-color: transparent; /* Removes any background */
+    -fx-border-color: transparent; /* Removes outer border */
+    -fx-border-width: 0; /* Ensures no border is visible */
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent; /* Removes the background of the viewport */
+}
+
+.scroll-pane .scroll-bar {
+    -fx-opacity: 0; /* Hides scrollbars */
+    -fx-pref-width: 0; /* Ensures scrollbars are not visible */
+    -fx-pref-height: 0;
+}
+

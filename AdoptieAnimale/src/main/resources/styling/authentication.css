@@ -1,0 +1,31 @@
+.root {
+    -fx-font-size: 30px; /* Set a base font size for everything */
+    -fx-background-color: #FCF7FF;
+    -fx-font-family: "Verdana";
+    -fx-border-radius: 20;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-pref-width: 250px;
+    -fx-pref-height: 100px;
+    -fx-background-color: #5D4E6D;
+}
+
+.spinner {
+    -fx-min-height: 50px;
+}
+
+.button:hover {
+    -fx-background-color: #4F345A;
+}
+
+.text-field, .password-field {
+    -fx-font-size: 30px;
+    -fx-pref-width: 500px;
+    -fx-pref-height: 10px;
+}
+
+.label {
+    -fx-font-size: 30px;
+}
